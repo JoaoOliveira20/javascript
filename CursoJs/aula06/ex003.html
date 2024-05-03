@@ -20,10 +20,12 @@
     <h1>Olá, Mundo!</h1>
     <p>Já me livrei da maldição!</p>
     <script>
-        //window.alert('Minha primeira mensagem!');
-        //window.confirm('Está gostando de JS?');
-        window.prompt('Qual é seu nome?'); //vai perguntar o nome...
-        
+        var n1 = Number(window.prompt('Digite um número: ')) //prompt recebe um valor string
+        var n2 = Number(window.prompt('Digite outro número: '))
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é: ${s}`) 
+        // + para adicão
+        // + para concatenação
     </script>
 </body>
 </html>
